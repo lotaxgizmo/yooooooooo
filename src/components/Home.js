@@ -31,7 +31,7 @@ function Home() {
             <div className="tg relative w-full flex flex-col lg:flex-row justify-center items-center">
                 <img src={yoooglass} alt="" className='hidden lg:flex w-60 absolute left-0 top-0 -mt-32' />
 
-                <div className="btns">
+                <div className="btns flex flex-col lg:flex-row">
                     <img src={jointelegramyooo} alt="" className='w-96 my-2' />
                     <img src={buyyooo} alt="" className='w-96 my-2' />
                 </div>
