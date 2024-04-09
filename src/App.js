@@ -9,6 +9,7 @@ import Scream from './components/Scream'
 function App() {
   return (
     <div className="App">
+      <Header />
       <Home />
       <Scream />
       <Aboutus />

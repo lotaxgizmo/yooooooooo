@@ -6,12 +6,22 @@
     font-family: Funkrocker;
     src: url(./assets/Funkrocker.otf);
 }
+@font-face {
+    font-family: Mullers;
+    src: url(./assets/Mullers\ Brush.otf);
+}
 
 
 body{
     font-family: Funkrocker;
+    
 }
+
 .App{
     background-image: url(./assets/texturebg.png);
     background-size: contain;
+}
+
+.Mullers{
+font-family: Mullers;
 }
