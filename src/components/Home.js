@@ -1,6 +1,7 @@
 import React from 'react'
 import contractyooo from "../assets/contractyooo.svg"
 import jointelegramyooo from "../assets/jointelegramyooo.svg"
+import buyyooo from "../assets/buyyooo.svg"
 import scrawnyyooo from "../assets/scrawnyyooo.svg"
 import yoooroll from "../assets/yoooroll.svg"
 import roll2yooo from "../assets/roll2yooo.svg"
@@ -29,7 +30,12 @@ function Home() {
             <img src={roll2yooo} alt="" className='w-full' />
             <div className="tg relative w-full flex flex-col lg:flex-row justify-center items-center">
                 <img src={yoooglass} alt="" className='hidden lg:flex w-60 absolute left-0 top-0 -mt-32' />
-                <img src={jointelegramyooo} alt="" className='w-96' />
+
+                <div className="btns">
+                    <img src={jointelegramyooo} alt="" className='w-96 my-2' />
+                    <img src={buyyooo} alt="" className='w-96 my-2' />
+                </div>
+
                 <img src={contractyooo} alt="" className='w-60 lg:absolute right-0 top-0' />
             </div>
             <img src={yoooroll} alt="" className='w-full' />
