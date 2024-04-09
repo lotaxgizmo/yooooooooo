@@ -7,7 +7,7 @@ import yoofacemain from "../assets/yoofacemain.svg"
 
 function Scream() {
     return (
-        <div className='flex flex-col items-center justify-center w-full lg:py-32 relative'>
+        <div className='flex flex-col items-center justify-center w-full px-4 lg:py-32 relative'>
             <div className="top flex flex-col w-full items-center justify-center relative">
                 <img src={screamloudyooo} alt="" className="" />
                 <img src={yoofacemain} alt="" className="lg:absolute right-0 bottom-0 w-60" />

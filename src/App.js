@@ -11,8 +11,8 @@ function App() {
     <div className="App">
       <Home />
       <Scream />
-      <Yootab />
       <Aboutus />
+      <Yootab />
       <Tokenomics />
       <Footer />
 
