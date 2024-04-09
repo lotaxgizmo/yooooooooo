@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: Funkrocker;
+    src: url(./assets/Funkrocker.otf);
+}
+
+
+body{
+    font-family: Funkrocker;
+}
+.App{
+    background-image: url(./assets/texturebg.png);
+    background-size: contain;
+}
