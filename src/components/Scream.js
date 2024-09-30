@@ -16,12 +16,16 @@ function Scream() {
             {/* <img src={yoootext} alt="" className="my-4 w-[1300px] lg:rotate-6" /> */}
             <div className="text my-4 lg:w-[1300px] lg:rotate-6">
                 <p className='text-center text-3xl lg:text-5xl'>
-                    YOOO Brand's unique approach to encouraging authentic self-expression through screaming has resonated with many consumers seeking a brand that values raw emotion and unfiltered communication. By promoting the idea of screaming loud and proud, YOOO has created a community of individuals who find catharsis and empowerment in expressing themselves without restraint. This focus on embracing one's voice and individuality sets YOOO apart in the competitive landscape of branding, appealing to those who value boldness and authenticity in their interactions with brands.
+                    AN IMAGE DEPICTING A MAN IN A STATE OF SHOCK & DISBELIEF, GRABBING HIS HEAD WITH BOTH HANDS AND LOOKING UP IN AWE, WITH THE WORD 'YOOO' BELOW HIM. THE MAN'S ARMS ARE RAISED ABOVE HIS HEAD, AND HIS HANDS ARE GRASPING AT HIS FACE. THE IMAGE IS RENDERED IN BLACK AND WHITE, CREATING A STARK AND STRIKING VISUAL. THE OVERALL ATMOSPHERE IS ONE OF SURPRISE, AWE AND EXCITEMENT.
                 </p>
             </div>
             <div className="btn flex lg:flex-row flex-col lg:rotate-6">
-                <img src={yoootwitter} alt="" className="m-2" />
-                <img src={yoootelegram} alt="" className="m-2" />
+                <a href="https://x.com/yooooooooosol" target="_blank" rel="noopener noreferrer">
+                    <img src={yoootwitter} alt="Twitter" className="m-2" />
+                </a>
+                <a href="https://t.me/yooooooooosol" target="_blank" rel="noopener noreferrer">
+                    <img src={yoootelegram} alt="Telegram" className="m-2" />
+                </a>
             </div>
         </div>
 

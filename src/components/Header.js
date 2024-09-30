@@ -17,10 +17,10 @@ function Header() {
                     <a href="#" target="_blank" rel="noopener noreferrer" className=' mx-3'>
                         <img src={dextools} alt="" />
                     </a>
-                    <a href="#" target="_blank" rel="noopener noreferrer" className=' mx-3'>
+                    <a href="https://t.me/yooooooooosol" target="_blank" rel="noopener noreferrer" className=' mx-3'>
                         <img src={telegram} alt="" />
                     </a>
-                    <a href="#" target="_blank" rel="noopener noreferrer" className=' mx-3'>
+                    <a href="https://x.com/yooooooooosol" target="_blank" rel="noopener noreferrer" className=' mx-3'>
                         <img src={twitter} alt="" />
                     </a>
                 </div>

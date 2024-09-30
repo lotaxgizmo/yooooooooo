@@ -27,17 +27,27 @@ function Home() {
                 <img src={glasssmall} alt="" className='w-9s6 absolute lg:left-96 top-20 left-0 lg:-top-32 ' />
                 <img src={scrawnyyooo} alt="" className='hidden lg:flex  w-96 absolute  lg:-bottom-20 ' />
             </div>
+            <div className="iframe">
+                <iframe width="110" height="200" src="https://www.myinstants.com/instant/japanese-yoooo/embed/" frameborder="0" scrolling="no"></iframe>
+            </div>
             <img src={roll2yooo} alt="" className='w-full' />
             <div className="tg relative w-full flex flex-col lg:flex-row justify-center items-center">
                 <img src={yoooglass} alt="" className='hidden lg:flex w-60 absolute left-0 top-0 -mt-32' />
 
                 <div className="btns flex flex-col lg:flex-row">
-                    <img src={buyyooo} alt="" className=' w-96 my-2' />
-                    <img src={jointelegramyooo} alt="" className=' w-96 my-2' />
+                    <a href="#" className="w-96 my-2">
+                        <img src={buyyooo} alt="Buy YOOO" className="w-full" />
+                    </a>
+                    <a href="https://t.me/yooooooooosol" className="w-96 my-2">
+                        <img src={jointelegramyooo} alt="Join Telegram" className="w-full" />
+                    </a>
                 </div>
 
                 <img src={contractyooo} alt="" className='w-60 lg:absolute right-0 top-0' />
             </div>
+
+
+
             <img src={yoooroll} alt="" className='w-full' />
         </div>
     )
