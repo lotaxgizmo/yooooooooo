@@ -27,9 +27,9 @@ function Home() {
                 <img src={glasssmall} alt="" className='w-9s6 absolute lg:left-96 top-20 left-0 lg:-top-32 ' />
                 <img src={scrawnyyooo} alt="" className='hidden lg:flex  w-96 absolute  lg:-bottom-20 ' />
             </div>
-            <div className="iframe">
+            {/* <div className="iframe">
                 <iframe width="110" height="200" src="https://www.myinstants.com/instant/japanese-yoooo/embed/" frameborder="0" scrolling="no"></iframe>
-            </div>
+            </div> */}
             <img src={roll2yooo} alt="" className='w-full' />
             <div className="tg relative w-full flex flex-col lg:flex-row justify-center items-center">
                 <img src={yoooglass} alt="" className='hidden lg:flex w-60 absolute left-0 top-0 -mt-32' />
